@@ -44,9 +44,9 @@ const setCurrentSelection = (value) => {
                 </div>
 
                 <div class="social-icon">
-                    <SocialIcon src="/src/assets/calendar.svg" :alt="'C'" :isModal="true"/>
-                    <SocialIcon :href="'https://www.instagram.com/sportc.sv/'" src="/src/assets/insta.svg" :alt="'In'"/>
-                    <SocialIcon :href="'https://www.facebook.com/profile.php?id=100054284840887'" src="/src/assets/facebook.svg" :alt="'Fa'"/>
+                    <SocialIcon  :alt="'C'" :isModal="true"/>
+                    <SocialIcon :href="'https://www.instagram.com/sportc.sv/'" :social_name="'instagram'" :alt="'In'"/>
+                    <SocialIcon :href="'https://www.facebook.com/profile.php?id=100054284840887'" :social_name="'facebook'"  :alt="'Fa'"/>
                 </div>
 
                 <!-- Hamburger -->
