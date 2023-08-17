@@ -5,7 +5,7 @@ const props = defineProps({
     href:{
         type:String
     },
-    src:{
+    social_name:{
         type:String,
     },
     alt:{
@@ -29,10 +29,15 @@ const dates = () => {
 <template>
     <div class="social mt-2">
         <div v-if="isModal">
-            <button @click="dates"><img :src="props.src"  :alt="props.alt"/></button>
+            <button @click="dates"><img src="/src/assets/calendar.svg"  :alt="props.alt"/></button>
         </div>
         <div v-else>
-            <a :href="props.href" target='_blank' rel='noopener noreferrer'><img :src="props.src"  :alt="props.alt"/></a>
+            <div v-if="props.social_name === 'instagram'">
+                <a :href="props.href" target='_blank' rel='noopener noreferrer'><img src="/src/assets/insta.svg"  :alt="props.alt"/></a>
+            </div>
+            <div v-if="props.social_name === 'facebook'">
+                <a :href="props.href" target='_blank' rel='noopener noreferrer'><img src="/src/assets/facebook.svg"  :alt="props.alt"/></a>
+            </div>
         </div>
     </div>
         
