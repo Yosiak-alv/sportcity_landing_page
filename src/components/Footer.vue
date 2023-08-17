@@ -12,8 +12,8 @@ import SocialIcon from './SocialIcon.vue';
                 </div>
                 <span class='navbar-text'>
                     <div class="social-icon">
-                        <SocialIcon :href="'https://www.instagram.com/sportc.sv/'" src="/src/assets/insta.svg" :alt="'Insta'"/>
-                    <SocialIcon :href="'https://www.facebook.com/profile.php?id=100054284840887'" src="/src/assets/facebook.svg" :alt="'Face'"/>
+                        <SocialIcon :href="'https://www.instagram.com/sportc.sv/'" :social_name="'instagram'" :alt="'In'"/>
+                        <SocialIcon :href="'https://www.facebook.com/profile.php?id=100054284840887'" :social_name="'facebook'"  :alt="'Fa'"/>
                     </div>
                 </span>
             </div>
