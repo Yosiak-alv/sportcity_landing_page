@@ -35,7 +35,7 @@
                         <label for="message" class="leading-7 font-light sm:text-lg text-gray-400">Mensaje</label>
                         <textarea required name="message" id="message" rows="4"  class="w-full bg-gray-800 rounded border border-gray-700 focus:border-green-500 focus:ring-2 focus:ring-green-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
-                    <button type="submit" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Enviar</button>
+                    <button type="submit" class="block w-full text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Enviar</button>
                     <p class="text-xs text-gray-400 text-opacity-90 mt-3">Tu informacion esta protegida.</p>
                     
                 </form>
@@ -63,6 +63,10 @@ export default {
                 timer: 1500
             });
             console.log('SUCCESS!', result.text);
+
+            //Reset form
+            this.$refs.form.reset();
+            
         }, (error) => {
             Swal.fire({
                 position: 'top-end',
