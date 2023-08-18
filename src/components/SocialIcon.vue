@@ -21,7 +21,7 @@ const dates = () => {
     Swal.fire({
         icon: 'info',
         title: 'HORARIOS',
-        html: 'LUNES - VIERNES : 8:00am - 7:00pm </br> SÁBADO: 8:00am - 11:30am DOMINGO: CERRADO',
+        html: 'LUNES - VIERNES : 7:00am - 8:00pm </br> SÁBADO: 8:00am - 11:00am, DOMINGO: CERRADO',
     })
 }
 </script>
