@@ -27,11 +27,21 @@
         <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo18.jpg">
       </swiper-slide>
       <swiper-slide >
-        <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo21.jpg">
+        <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo27.jpg">
       </swiper-slide>
       <swiper-slide>
         <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo22.jpg">
       </swiper-slide>
+      <swiper-slide>
+        <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo25.jpg">
+      </swiper-slide>
+      <swiper-slide>
+        <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo19.jpg">
+      </swiper-slide>
+      <swiper-slide>
+        <img class="object-cover object-center rounded" alt="hero" src="/src/assets/img/photo23.jpg">
+      </swiper-slide>
+      
     </swiper>
 </template>
 
