@@ -9,13 +9,13 @@
                 <div class="lg:w-1/2 px-6">
                     
                     <h2  class="text-white text-xs font-extrabold tracking-tight">DIRECCIÓN</h2>
-                    <p class="mt-1 font-light sm:text-lg">10 Avenida Norte y 5 Cale Oriente, Barrio El Angel, Sonsonate</p>
+                    <p class="mt-1 font-light sm:text-lg">10 Avenida Norte y 5 Calle Oriente, Barrio El Angel, Sonsonate</p>
                     </div>
                     <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                         <h2 class="text-white text-xs font-extrabold tracking-tight">EMAIL</h2>
                         <a class="text-green-400 leading-relaxed font-light sm:text-lg">itteamsportcity@gmail.com</a>
                         <h2 class="text-white text-xs font-extrabold tracking-tight mt-1">TELÉFONO</h2>
-                        <p class="leading-relaxed font-light sm:text-lg">un telefono xd</p>
+                        <p class="leading-relaxed font-light sm:text-lg">7749 - 3748</p>
                     </div>
                 </div>
             </div>
