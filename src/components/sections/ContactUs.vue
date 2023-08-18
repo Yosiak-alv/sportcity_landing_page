@@ -60,7 +60,7 @@ export default {
                 title: 'Correo Recibido, ' + result.text,
                 text: 'Atenderemos su mensaje lo mas pronto posible.',
                 showConfirmButton: false,
-                timer: 1500
+                timer: 1700
             });
             console.log('SUCCESS!', result.text);
 
@@ -74,7 +74,7 @@ export default {
                 title: 'FAILED...',
                 text: 'Ocurrio un error, verifique sus datos, ' + error.text,
                 showConfirmButton: false,
-                timer: 1500
+                timer: 1700
             });
             console.log('FAILED...', error.text);
         });
