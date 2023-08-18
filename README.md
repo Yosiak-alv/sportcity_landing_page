@@ -1,7 +1,27 @@
-# Vue 3 + Vite
+# SportCity Landing Page
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Pagina de presentacion para el gimnasio SportCity.
 
-## Recommended IDE Setup
+## Desarrollo
+Pagina desarrollada con:
+1. Vue.js
+2. Javascript
+3. Email.js
+4. Tailwind 
+5. Swiper
+6. SweetAlert
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Instalacion
+Clonacion del Proyecto
+```
+git clone https://github.com/Yosiak-alv/sportcity_landing_page.git
+cd sportcity_landing_page
+```
+Instalacion de Dependencias:
+```
+npm install
+```
+Correrlo:
+```
+npm run dev
+```
