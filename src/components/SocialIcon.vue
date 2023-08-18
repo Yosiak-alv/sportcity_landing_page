@@ -19,9 +19,9 @@ const props = defineProps({
 
 const dates = () => {
     Swal.fire({
-        icon: 'success',
+        icon: 'info',
         title: 'HORARIOS',
-        html: 'LUNES - VIERNES : 8:00am - 7:00pm </br> SABADO: 8:00am - 11:30am DOMINGO: CERRADO',
+        html: 'LUNES - VIERNES : 8:00am - 7:00pm </br> SÁBADO: 8:00am - 11:30am DOMINGO: CERRADO',
     })
 }
 </script>
