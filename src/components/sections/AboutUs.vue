@@ -2,8 +2,8 @@
     <section class="bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"  v-motion-fade>
             <div class="font-light  sm:text-lg text-gray-400">
-                <h2 id="1" class="mb-4 text-4xl tracking-tight font-extrabold  text-white"><span class="bg-green-600 rounded-md">Unete  a </span> Nosotros</h2>
-                <p class="mb-4 sm:text-xl">
+                <h2 id="1" class="mb-4 text-4xl tracking-tight font-extrabold  text-white"><span class="bg-green-600 rounded-md">Únete  a </span> Nosotros</h2>
+                <p class="mb-4 sm:text-xl text-justify">
                     Fundado por un equipo de entrenadores experimentados y entusiastas de CrossFit, SportCity 
                     nació del deseo de crear un espacio donde el fitness se convierta en un estilo de vida, y 
                     cada desafío conquistado te lleve a ser más fuerte. Nuestro viaje comenzó con una barra, 
@@ -12,6 +12,9 @@
                 </p>
                 <p class="sm:text-xl">
                     Creemos que el verdadero bienestar es una combinación armoniosa de fuerza física, claridad mental y equilibrio emocional. 
+                </p>
+                <p class="sm:text-xl mt-3">
+                    Comprometidos contigo, adaptamos el entreno a cualquier persona, indiferentemente de su edad o condición física actual.
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
