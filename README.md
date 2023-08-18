@@ -1,9 +1,9 @@
 # SportCity Landing Page
 
-Pagina de presentacion para el gimnasio SportCity.
+Página de presentación para el gimnasio SportCity.
 
 ## Desarrollo
-Pagina desarrollada con:
+Página desarrollada con:
 1. Vue.js
 2. Javascript
 3. Email.js
@@ -11,13 +11,13 @@ Pagina desarrollada con:
 5. Swiper
 6. SweetAlert
 
-## Instalacion
-Clonacion del Proyecto
+## Instalación
+Clonación del Proyecto
 ```
 git clone https://github.com/Yosiak-alv/sportcity_landing_page.git
 cd sportcity_landing_page
 ```
-Instalacion de Dependencias:
+Instalación de Dependencias:
 ```
 npm install
 ```
